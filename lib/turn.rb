@@ -44,6 +44,6 @@ def turn(board)
   else
     turn(board)
   end
-  return board
+  puts board
 end
 
