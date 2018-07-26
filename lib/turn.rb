@@ -32,7 +32,7 @@ def input_to_index(position)
 end
 
 def move(board, index, value = "X")
-  
+  board[index] = value
 end
 
 def turn(board)
